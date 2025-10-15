@@ -94,7 +94,7 @@ export function Contact() {
                 </Button>
 
                 <Button size="lg" className="w-full bg-primary hover:bg-primary/90 mt-6" asChild>
-                  <a href="mailto:mahmoudmohammed200488@gmail.com">
+                  <a href="mailto:mahmoudmohamed200488@gmail.com">
                     <Mail className="mr-3 h-5 w-5" />
                     Send Email
                   </a>
@@ -115,7 +115,7 @@ export function Contact() {
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <Button variant="outline" className="h-auto p-4" asChild>
-                    <a href="mailto:mahmoudmohammed200488@gmail.com">
+                    <a href="mailto:mahmoudmohamed200488@gmail.com">
                       <div className="text-center">
                         <Mail className="h-6 w-6 mx-auto mb-2 text-primary" />
                         <div className="font-medium">Email Me</div>
