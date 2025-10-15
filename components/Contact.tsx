@@ -33,10 +33,10 @@ export function Contact() {
                   <div className="min-w-0 flex-1">
                     <p className="font-medium">Email</p>
                     <a 
-                      href="mailto:mahmoudmohammed200488@gmail.com" 
+                      href="mailto:mahmoudmohamed200488@gmail.com" 
                       className="text-sm text-muted-foreground hover:text-primary transition-colors break-all"
                     >
-                      mahmoudmohammed200488@gmail.com
+                      mahmoudmohamed200488@gmail.com
                     </a>
                   </div>
                 </div>
