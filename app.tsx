@@ -5,6 +5,7 @@ import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
+import { Services } from "./components/Services";
 import { Button } from "./components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -27,6 +28,9 @@ export default function App() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#about" className="text-sm hover:text-primary transition-colors">
                 About Me
+              </a>
+              <a href="#services" className="text-sm hover:text-primary transition-colors">
+                Services
               </a>
               <a href="#education" className="text-sm hover:text-primary transition-colors">
                 Education
@@ -64,6 +68,13 @@ export default function App() {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   About Me
+                </a>
+                <a
+                  href="#services"
+                  className="block px-3 py-2 text-sm hover:text-primary transition-colors"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Services
                 </a>
                 <a
                   href="#education"
@@ -106,6 +117,9 @@ export default function App() {
         
         {/* About Me Section */}
         <Skills />
+
+        {/* Services Section */}
+        <Services />
         
         {/* Education Section */}
         <Education />
@@ -136,6 +150,9 @@ export default function App() {
               <div className="space-y-2 text-sm">
                 <a href="#about" className="block hover:text-primary-foreground/80 transition-colors">
                   About Me
+                </a>
+                <a href="#services" className="block hover:text-primary-foreground/80 transition-colors">
+                  Services
                 </a>
                 <a href="#projects" className="block hover:text-primary-foreground/80 transition-colors">
                   Projects

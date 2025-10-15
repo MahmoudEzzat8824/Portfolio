@@ -1,7 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* styles/portfolio.css */
 :root {
   /* Color Scheme */
-  --primary: #0f766e;       /* Teal */
+  --primary: 174 60% 27%;       /* HSL for shadcn mapping */
+  --primary-foreground: 174 60% 96%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 47% 11%;
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 20% 50%;
+  --destructive: 0 84% 60%;
+  --ring: 215 20% 50%;
+  --input: 214 32% 91%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  /* Legacy palette for custom CSS below */
   --primary-light: #14b8a6; /* Light teal */
   --dark: #1e293b;         /* Dark slate */
   --light: #f8fafc;        /* Light background */
@@ -46,8 +66,8 @@ html {
 
 body {
   font-family: var(--font-sans);
-  color: var(--dark);
-  background-color: var(--white);
+  color: hsl(var(--foreground));
+  background-color: hsl(var(--background));
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -66,7 +86,7 @@ h1 {
 
 h2 {
   font-size: var(--text-2xl);
-  color: var(--primary);
+  color: hsl(var(--primary));
   border-bottom: var(--border);
   padding-bottom: var(--space-xs);
   margin-bottom: var(--space-md);
@@ -82,7 +102,7 @@ p {
 }
 
 a {
-  color: var(--primary);
+  color: hsl(var(--primary));
   text-decoration: none;
   transition: color 0.2s;
 }

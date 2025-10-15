@@ -5,21 +5,6 @@ import { Users, Code, Wrench, Calendar } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      icon: Code,
-      title: "Web Development Member",
-      organization: "IEEE FCIH",
-      period: "2024 - Present",
-      description: "Contributing to web development projects and participating in technical workshops. Collaborating with team members on frontend and backend development initiatives, focusing on modern web technologies and best practices.",
-      responsibilities: [
-        "Developed responsive web applications using React.js and modern CSS frameworks",
-        "Collaborated on team projects using Git version control and Agile methodologies", 
-        "Participated in code reviews and technical discussions",
-        "Contributed to technical documentation and knowledge sharing sessions"
-      ],
-      skills: ["React.js", "JavaScript", "Team Collaboration", "Git", "Agile"],
-      type: "Technical Role"
-    },
-    {
       icon: Wrench,
       title: "DevOps Implementation Specialist",
       organization: "Personal Projects & Learning",
@@ -36,18 +21,31 @@ export function Experience() {
     },
     {
       icon: Users,
-      title: "Technical Volunteer",
-      organization: "Techverse 2.0 Conference",
-      period: "2024",
-      description: "Volunteered at major tech conference, assisting with event coordination, technical setup, and participant support. Gained exposure to latest industry trends and networking opportunities.",
+      title: "Public Relations Committee Member",
+      organization: "MSP (Microsoft Student Partners)",
+      period: "2025 - Present",
+      description: "Supporting public relations activities including outreach, partnerships, and communication strategies to grow community impact and engagement.",
       responsibilities: [
-        "Assisted with technical setup for speaker presentations and demos",
-        "Provided technical support to conference attendees and participants",
-        "Coordinated with speakers and helped manage technical requirements",
-        "Supported event logistics and helped ensure smooth operations"
+        "Coordinated with partners and speakers for community events",
+        "Managed outreach campaigns and audience engagement",
+        "Collaborated with team members to enhance PR strategy and execution"
       ],
-      skills: ["Event Management", "Technical Support", "Communication", "Problem Solving"],
-      type: "Volunteer Work"
+      skills: ["Communication", "Community Engagement", "Team Collaboration", "Organization"],
+      type: "Community Role"
+    },
+    {
+      icon: Users,
+      title: "Event Planner & Panel Moderator",
+      organization: "Tech Heist Event",
+      period: "11/10/2025",
+      description: "Participated as an event planner and served as a panel moderator, coordinating logistics and facilitating panel discussions with speakers and attendees.",
+      responsibilities: [
+        "Planned event agenda and coordinated session logistics",
+        "Moderated panel discussions and ensured smooth session flow",
+        "Collaborated with speakers and volunteers to deliver a quality experience"
+      ],
+      skills: ["Event Planning", "Moderation", "Public Speaking", "Coordination"],
+      type: "Event Organization"
     }
   ];
 

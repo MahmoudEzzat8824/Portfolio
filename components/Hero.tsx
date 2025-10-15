@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-const profileImage = '/Prof pic.jpg'; // Update this path to your actual image location
+import profileImage from "./Prof pic.jpg";
 
 export function Hero() {
   return (
