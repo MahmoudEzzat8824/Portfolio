@@ -6,6 +6,20 @@ import { GraduationCap, Award, Calendar, Star } from "lucide-react";
 export function Education() {
   const certifications = [
     {
+      name: "DevOps Trainee",
+      provider: "Digital Egyptian Pioneers Initiative",
+      date: "June 2025 – December 2025",
+      type: "DevOps",
+      status: "Completed"
+    },
+    {
+      name: "McKinsey Forward Program",
+      provider: "McKinsey & Company",
+      date: "September 2025 – November 2025",
+      type: "Professional Development",
+      status: "Completed"
+    },
+    {
       name: "Linux Essentials",
       provider: "Information Technology Institute (ITI)",
       date: "July 2025",
@@ -142,7 +156,7 @@ export function Education() {
                     <TableRow>
                       <TableHead className="font-medium">Certification</TableHead>
                       <TableHead className="font-medium">Provider</TableHead>
-                      <TableHead className="font-medium">Date Completed</TableHead>
+                      <TableHead className="font-medium">Date</TableHead>
                       <TableHead className="font-medium">Category</TableHead>
                       <TableHead className="font-medium">Status</TableHead>
                     </TableRow>
@@ -184,7 +198,7 @@ export function Education() {
                   <div className="text-xs text-muted-foreground mt-1">Bachelor's Degree Program</div>
                 </div>
                 <div>
-                  <div className="text-3xl mb-2 text-primary">3+</div>
+                  <div className="text-3xl mb-2 text-primary">5+</div>
                   <div className="text-sm text-muted-foreground">Certifications Earned</div>
                   <div className="text-xs text-muted-foreground mt-1">Professional Development</div>
                 </div>

@@ -21,18 +21,18 @@ export function Projects() {
       devopsHighlights: ["CI/CD", "Docker", "Cloud Deployment"]
     },
     {
-      title: "Budget Tracker Application",
-      description: "Personal finance management solution with advanced analytics, budget planning, and expense tracking. Built with modern React architecture and featuring robust DevOps practices including automated testing, containerized deployment, and continuous integration workflows.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: ["React.js", "TypeScript", "Chart.js", "Docker", "GitHub Actions", "AWS"],
+      title: "ICU Reservation & Management System",
+      description: "Implemented a fully automated DevOps pipeline for a cloud-based ICU management system. Containerized frontend and backend services using Docker and deployed them on Kubernetes with Terraform-provisioned AWS infrastructure. Set up CI/CD pipelines using GitHub Actions and GitLab CI for automated testing, building, and deployment. Improved scalability, reliability, and deployment consistency through optimized Kubernetes configs, environment automation, and monitoring readiness.",
+      image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      technologies: ["Docker", "Kubernetes", "Terraform", "AWS", "GitHub Actions", "GitLab CI"],
       features: [
-        "Comprehensive CI/CD pipeline using GitHub Actions",
-        "Docker containerization for development and production",
-        "Automated testing and code quality checks",
-        "Infrastructure as Code deployment strategies"
+        "Fully automated CI/CD pipeline with GitHub Actions and GitLab CI",
+        "Kubernetes orchestration for containerized services",
+        "Infrastructure as Code with Terraform on AWS",
+        "Optimized scalability, reliability, and deployment consistency"
       ],
-      githubUrl: "https://github.com/mahmoud-kaarem/Budget_Tracker",
-      devopsHighlights: ["GitHub Actions", "Docker", "IaC"]
+      githubUrl: "https://github.com/Devopsians12/Devopsians",
+      devopsHighlights: ["Kubernetes", "Terraform", "CI/CD"]
     }
   ];
 
@@ -115,34 +115,6 @@ export function Projects() {
               </CardFooter>
             </Card>
           ))}
-        </div>
-
-        {/* Additional Project Info */}
-        <div className="max-w-4xl mx-auto mt-16">
-          <Card className="bg-gradient-to-r from-primary/5 to-accent/10">
-            <CardHeader>
-              <CardTitle className="text-xl text-center flex items-center justify-center gap-2">
-                <GitBranch className="h-5 w-5 text-primary" />
-                DevOps Implementation Highlights
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                <div>
-                  <div className="text-2xl mb-2 text-primary">100%</div>
-                  <div className="text-sm text-muted-foreground">Automated Testing Coverage</div>
-                </div>
-                <div>
-                  <div className="text-2xl mb-2 text-primary">5 min</div>
-                  <div className="text-sm text-muted-foreground">Average Deployment Time</div>
-                </div>
-                <div>
-                  <div className="text-2xl mb-2 text-primary">Zero</div>
-                  <div className="text-sm text-muted-foreground">Downtime Deployments</div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ export function Experience() {
       icon: Wrench,
       title: "DevOps Implementation Specialist",
       organization: "Personal Projects & Learning",
-      period: "2023 - Present",
+      period: "2025 - Present",
       description: "Implementing continuous integration and deployment pipelines for various projects. Focus on automation, testing, and deployment strategies using industry-standard tools and practices.",
       responsibilities: [
         "Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions",
@@ -23,7 +23,7 @@ export function Experience() {
       icon: Users,
       title: "Public Relations Committee Member",
       organization: "MSP (Microsoft Student Partners)",
-      period: "2025 - Present",
+      period: "8/2025 - 12/2025",
       description: "Supporting public relations activities including outreach, partnerships, and communication strategies to grow community impact and engagement.",
       responsibilities: [
         "Coordinated with partners and speakers for community events",

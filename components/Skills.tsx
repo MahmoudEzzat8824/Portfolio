@@ -5,13 +5,13 @@ import { Code, Server, Globe, Languages } from "lucide-react";
 export function Skills() {
   const skillCategories = [
     {
-      title: "Programming",
+      title: "Programming Languages",
       icon: Code,
-      skills: ["C", "C++", "Java", "Python", "HTML/HTML5", "CSS/CSS3", "React"],
+      skills: ["C", "C++", "Java", "Python", "HTML/HTML5", "CSS/CSS3", "React", "SQL"],
       color: "bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-950 dark:text-blue-300"
     },
     {
-      title: "Engineering",
+      title: "Software Engineering",
       icon: Server,
       skills: ["SDLC", "UML Diagrams", "SOLID Principles"],
       color: "bg-green-50 text-green-700 border-green-200 dark:bg-green-950 dark:text-green-300"
@@ -23,28 +23,27 @@ export function Skills() {
       color: "bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-950 dark:text-purple-300"
     },
     {
-      title: "Automation Tools",
+      title: "Automation & DevOps Tools",
       icon: Server,
-      skills: ["Jenkins", "Ansible"],
+      skills: ["Jenkins", "Ansible", "GitHub Actions", "GitLab CI"],
       color: "bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-950 dark:text-orange-300"
     },
     {
-      title: "Containerization",
+      title: "Containerization & Orchestration",
       icon: Server,
-      skills: ["Docker", "Docker Products"],
+      skills: ["Docker", "Docker Products", "Kubernetes"],
       color: "bg-cyan-50 text-cyan-700 border-cyan-200 dark:bg-cyan-950 dark:text-cyan-300"
     },
     {
-      title: "PaaS & Cloud",
+      title: "Infrastructure as Code & Cloud",
       icon: Globe,
-      skills: ["Terraform", "nginx", "AWS EC2"],
+      skills: ["Terraform", "nginx", "AWS"],
       color: "bg-teal-50 text-teal-700 border-teal-200 dark:bg-teal-950 dark:text-teal-300"
     }
   ];
 
   const languageSkills = [
-    { language: "English", level: "Very Good" },
-    { language: "French", level: "Intermediate" }
+    { language: "English", level: "B1 - B2" }
   ];
 
   return (
