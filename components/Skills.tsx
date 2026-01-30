@@ -39,6 +39,12 @@ export function Skills() {
       icon: Globe,
       skills: ["Terraform", "nginx", "AWS"],
       color: "bg-teal-50 text-teal-700 border-teal-200 dark:bg-teal-950 dark:text-teal-300"
+    },
+    {
+      title: "Monitoring & Observability",
+      icon: Server,
+      skills: ["Prometheus", "Grafana"],
+      color: "bg-indigo-50 text-indigo-700 border-indigo-200 dark:bg-indigo-950 dark:text-indigo-300"
     }
   ];
 

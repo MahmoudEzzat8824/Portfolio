@@ -7,18 +7,18 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 export function Projects() {
   const projects = [
     {
-      title: "Book Swap Website",
-      description: "A comprehensive platform for book enthusiasts to exchange and discover literature. Features user authentication, advanced search capabilities, recommendation engine, and seamless book swap matching. Designed with cloud-ready architecture and automated deployment pipelines.",
-      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: ["React.js", "Node.js", "MongoDB", "Docker", "Jenkins", "AWS EC2"],
+      title: "Task Management Platform",
+      description: "Reduced software release time by 80% through the automation of the full-stack deployment workflow using GitHub Actions CI/CD integrated with Docker Hub for container image management. Achieved 100% environment consistency and high availability by orchestrating containerized microservices using Kubernetes on AWS infrastructure. Minimized infrastructure setup time and manual configuration errors by automating the provisioning of AWS cloud resources using Terraform as Infrastructure as Code (IaC). Enhanced system reliability and observability by establishing a comprehensive monitoring stack using Prometheus and Grafana to track infrastructure health and performance metrics.",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      technologies: ["GitHub Actions", "Docker", "Kubernetes", "AWS", "Terraform", "Prometheus", "Grafana"],
       features: [
-        "Automated CI/CD pipeline with Jenkins integration",
-        "Docker containerization for consistent deployments",
-        "Cloud-ready infrastructure on AWS",
-        "Comprehensive testing and quality assurance"
+        "80% reduction in software release time through CI/CD automation",
+        "100% environment consistency with Kubernetes orchestration",
+        "Automated AWS infrastructure provisioning using Terraform IaC",
+        "Comprehensive monitoring with Prometheus and Grafana stack"
       ],
-      githubUrl: "https://github.com/MahmoudEzzat8824/Book-Swap",
-      devopsHighlights: ["CI/CD", "Docker", "Cloud Deployment"]
+      githubUrl: "https://github.com/MahmoudEzzat8824/nodejs-fullstack",
+      devopsHighlights: ["CI/CD", "Kubernetes", "Terraform"]
     },
     {
       title: "ICU Reservation & Management System",
@@ -31,7 +31,7 @@ export function Projects() {
         "Infrastructure as Code with Terraform on AWS",
         "Optimized scalability, reliability, and deployment consistency"
       ],
-      githubUrl: "https://github.com/Devopsians12/Devopsians",
+      githubUrl: "https://github.com/MahmoudEzzat8824/ICUReservation-ManagementSystem",
       devopsHighlights: ["Kubernetes", "Terraform", "CI/CD"]
     }
   ];

@@ -66,7 +66,7 @@ export function Hero() {
               <div className="text-muted-foreground">Expected Graduation</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl mb-2 text-primary">3+</div>
+              <div className="text-3xl mb-2 text-primary">5+</div>
               <div className="text-muted-foreground">Certifications Earned</div>
             </div>
             <div className="text-center">

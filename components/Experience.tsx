@@ -5,21 +5,6 @@ import { Users, Code, Wrench, Calendar } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      icon: Wrench,
-      title: "DevOps Implementation Specialist",
-      organization: "Personal Projects & Learning",
-      period: "2025 - Present",
-      description: "Implementing continuous integration and deployment pipelines for various projects. Focus on automation, testing, and deployment strategies using industry-standard tools and practices.",
-      responsibilities: [
-        "Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions",
-        "Containerized applications using Docker for consistent deployment environments",
-        "Automated testing processes and deployment workflows",
-        "Implemented Infrastructure as Code using Terraform for AWS resources"
-      ],
-      skills: ["Jenkins", "Docker", "Terraform", "AWS", "CI/CD", "Automation"],
-      type: "DevOps Experience"
-    },
-    {
       icon: Users,
       title: "Public Relations Committee Member",
       organization: "MSP (Microsoft Student Partners)",

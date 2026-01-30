@@ -146,21 +146,21 @@ export default function App() {
               </p>
             </div>
             <div>
-              <h4 className="text-base mb-4">Quick Links</h4>
+              <h4 className="text-base font-semibold mb-4 text-primary-foreground">Quick Links</h4>
               <div className="space-y-2 text-sm">
-                <a href="#about" className="block hover:text-primary-foreground/80 transition-colors">
+                <a href="#about" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   About Me
                 </a>
-                <a href="#services" className="block hover:text-primary-foreground/80 transition-colors">
+                <a href="#services" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   Services
                 </a>
-                <a href="#projects" className="block hover:text-primary-foreground/80 transition-colors">
+                <a href="#projects" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   Projects
                 </a>
-                <a href="#education" className="block hover:text-primary-foreground/80 transition-colors">
+                <a href="#education" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   Education
                 </a>
-                <a href="#contact" className="block hover:text-primary-foreground/80 transition-colors">
+                <a href="#contact" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   Contact
                 </a>
               </div>
