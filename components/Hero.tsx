@@ -52,7 +52,7 @@ export function Hero() {
               </Button>
               
               <Button variant="ghost" size="lg" asChild>
-                <a href="https://linkedin.com/in/mahmoud-mohamed-510a87310" target="_blank" rel="noopener noreferrer" title="Visit my LinkedIn profile">
+                <a href="https://www.linkedin.com/in/mahmoud-ezzat-510a87310" target="_blank" rel="noopener noreferrer" title="Visit my LinkedIn profile">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
