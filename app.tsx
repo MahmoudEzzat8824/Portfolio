@@ -6,6 +6,7 @@ import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Services } from "./components/Services";
+import { Awards } from "./components/Awards";
 import { Button } from "./components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -40,6 +41,9 @@ export default function App() {
               </a>
               <a href="#projects" className="text-sm hover:text-primary transition-colors">
                 Projects
+              </a>
+              <a href="#awards" className="text-sm hover:text-primary transition-colors">
+                Awards
               </a>
               <a href="#contact" className="text-sm hover:text-primary transition-colors">
                 Contact
@@ -98,6 +102,13 @@ export default function App() {
                   Projects
                 </a>
                 <a
+                  href="#awards"
+                  className="block px-3 py-2 text-sm hover:text-primary transition-colors"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Awards
+                </a>
+                <a
                   href="#contact"
                   className="block px-3 py-2 text-sm hover:text-primary transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
@@ -130,6 +141,9 @@ export default function App() {
         {/* Projects Section */}
         <Projects />
         
+        {/* Awards Section */}
+        <Awards />
+        
         {/* Contact Section */}
         <Contact />
       </main>
@@ -157,22 +171,15 @@ export default function App() {
                 <a href="#projects" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   Projects
                 </a>
+                <a href="#awards" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
+                  Awards
+                </a>
                 <a href="#education" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   Education
                 </a>
                 <a href="#contact" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors">
                   Contact
                 </a>
-              </div>
-            </div>
-            <div>
-              <h4 className="text-base mb-4">Technologies</h4>
-              <div className="flex flex-wrap gap-2 text-sm">
-                <span className="bg-primary-foreground/20 px-2 py-1 rounded">Docker</span>
-                <span className="bg-primary-foreground/20 px-2 py-1 rounded">Jenkins</span>
-                <span className="bg-primary-foreground/20 px-2 py-1 rounded">AWS</span>
-                <span className="bg-primary-foreground/20 px-2 py-1 rounded">React</span>
-                <span className="bg-primary-foreground/20 px-2 py-1 rounded">Terraform</span>
               </div>
             </div>
           </div>

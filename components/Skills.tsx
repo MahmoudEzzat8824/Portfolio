@@ -5,39 +5,39 @@ import { Code, Server, Globe, Languages } from "lucide-react";
 export function Skills() {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Software Engineering & SDLC",
       icon: Code,
-      skills: ["C", "C++", "Java", "Python", "HTML/HTML5", "CSS/CSS3", "React", "SQL"],
+      skills: ["SDLC", "UML", "Design Patterns", "SOLID Principles", "RESTful APIs"],
       color: "bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-950 dark:text-blue-300"
     },
     {
-      title: "Software Engineering",
+      title: "Infrastructure as Code (IaC)",
       icon: Server,
-      skills: ["SDLC", "UML Diagrams", "SOLID Principles"],
+      skills: ["Terraform", "Ansible"],
       color: "bg-green-50 text-green-700 border-green-200 dark:bg-green-950 dark:text-green-300"
-    },
-    {
-      title: "Version Control",
-      icon: Globe,
-      skills: ["Git", "GitHub"],
-      color: "bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-950 dark:text-purple-300"
-    },
-    {
-      title: "Automation & DevOps Tools",
-      icon: Server,
-      skills: ["Jenkins", "Ansible", "GitHub Actions", "GitLab CI"],
-      color: "bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-950 dark:text-orange-300"
     },
     {
       title: "Containerization & Orchestration",
       icon: Server,
-      skills: ["Docker", "Docker Products", "Kubernetes"],
+      skills: ["Docker", "Kubernetes", "Helm"],
       color: "bg-cyan-50 text-cyan-700 border-cyan-200 dark:bg-cyan-950 dark:text-cyan-300"
     },
     {
-      title: "Infrastructure as Code & Cloud",
+      title: "CI/CD Pipelines",
       icon: Globe,
-      skills: ["Terraform", "nginx", "AWS"],
+      skills: ["Jenkins", "GitHub Actions", "GitLab CI", "Git"],
+      color: "bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-950 dark:text-orange-300"
+    },
+    {
+      title: "Cloud Platforms",
+      icon: Globe,
+      skills: ["Azure (AKS, ACR)", "AWS (EC2, S3)", "GCP"],
+      color: "bg-purple-50 text-purple-700 border-purple-200 dark:bg-purple-950 dark:text-purple-300"
+    },
+    {
+      title: "Scripting & OS",
+      icon: Code,
+      skills: ["Linux", "Bash", "Python", "SSH"],
       color: "bg-teal-50 text-teal-700 border-teal-200 dark:bg-teal-950 dark:text-teal-300"
     },
     {
@@ -49,7 +49,8 @@ export function Skills() {
   ];
 
   const languageSkills = [
-    { language: "English", level: "B1 - B2" }
+    { language: "Arabic", level: "Native" },
+    { language: "English", level: "Professional" }
   ];
 
   return (

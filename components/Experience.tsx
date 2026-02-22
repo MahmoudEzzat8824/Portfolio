@@ -5,10 +5,26 @@ import { Users, Code, Wrench, Calendar } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
+      icon: Wrench,
+      title: "DevOps Trainee",
+      organization: "Digital Egyptian Pioneers Initiative",
+      period: "June 2025 - Dec 2025",
+      location: "Nasr City, Cairo, Egypt",
+      description: "Completed intensive DevOps training focused on automating deployment workflows, containerization, and cloud infrastructure management. Gained hands-on experience with industry-standard DevOps tools and practices.",
+      responsibilities: [
+        "Curtailed deployment downtime by 35% by engineering high-velocity CI/CD pipelines via Jenkins and GitHub Actions for multi-tier applications",
+        "Eradicated 95% of environment-related bugs by standardizing containerized development environments using Docker",
+        "Cut manual configuration time by 50% through the implementation of Ansible playbooks and Terraform scripts for programmatic cloud provisioning",
+        "Amplified cluster observability by 40% by deploying Kubernetes orchestration paired with Prometheus/Grafana for real-time health monitoring"
+      ],
+      skills: ["Jenkins", "GitHub Actions", "Docker", "Ansible", "Terraform", "Kubernetes", "Prometheus", "Grafana"],
+      type: "DevOps Training"
+    },
+    {
       icon: Users,
       title: "Public Relations Committee Member",
       organization: "MSP (Microsoft Student Partners)",
-      period: "8/2025 - 12/2025",
+      period: "8/2024 - 12/2024",
       description: "Supporting public relations activities including outreach, partnerships, and communication strategies to grow community impact and engagement.",
       responsibilities: [
         "Coordinated with partners and speakers for community events",
@@ -59,6 +75,9 @@ export function Experience() {
                         <div>
                           <CardTitle className="text-xl">{experience.title}</CardTitle>
                           <CardDescription className="text-base">{experience.organization}</CardDescription>
+                          {experience.location && (
+                            <CardDescription className="text-sm mt-1">{experience.location}</CardDescription>
+                          )}
                         </div>
                         <div className="flex flex-col items-end gap-1">
                           <Badge variant="outline">{experience.type}</Badge>

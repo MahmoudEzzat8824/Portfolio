@@ -70,8 +70,8 @@ export function Hero() {
               <div className="text-muted-foreground">Certifications Earned</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl mb-2 text-primary">CI/CD</div>
-              <div className="text-muted-foreground">Pipeline Expertise</div>
+              <div className="text-3xl mb-2 text-primary">3rd</div>
+              <div className="text-muted-foreground">Best DevOps Project</div>
             </div>
           </div>
         </div>

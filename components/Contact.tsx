@@ -84,7 +84,7 @@ export function Contact() {
                 </Button>
                 
                 <Button variant="outline" className="w-full justify-start h-auto p-4" asChild>
-                  <a href="https://linkedin.com/in/mahmoud-mohamed-510a87310" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/mahmoud-ezzat-510a87310" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-3 h-5 w-5 flex-shrink-0" />
                     <div className="text-left">
                       <div className="font-medium">LinkedIn</div>
@@ -135,7 +135,7 @@ export function Contact() {
                   </Button>
                   
                   <Button variant="outline" className="h-auto p-4" asChild>
-                    <a href="https://linkedin.com/in/mahmoud-mohamed-510a87310" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/mahmoud-ezzat-510a87310" target="_blank" rel="noopener noreferrer">
                       <div className="text-center">
                         <Linkedin className="h-6 w-6 mx-auto mb-2 text-primary" />
                         <div className="font-medium">LinkedIn</div>

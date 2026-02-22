@@ -33,6 +33,20 @@ export function Projects() {
       ],
       githubUrl: "https://github.com/MahmoudEzzat8824/ICUReservation-ManagementSystem",
       devopsHighlights: ["Kubernetes", "Terraform", "CI/CD"]
+    },
+    {
+      title: "Server Health Check & Security Audit Platform",
+      description: "Elevated fleet observability by 70% via a Flask interface orchestrating agentless Bash telemetry over SSH. Reduced manual auditing time by 60% using a modular utility to aggregate real-time system metrics. Strengthened security response with a self-executing module for parsing SSH logs and brute-force patterns. Streamlined monitoring delivery by implementing a CI/CD pipeline on Render with Gunicorn-optimized backends.",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      technologies: ["Flask", "Bash", "SSH", "Linux", "Render", "Gunicorn"],
+      features: [
+        "70% improvement in fleet observability via Flask interface with agentless Bash telemetry",
+        "60% reduction in manual auditing time through real-time system metrics aggregation",
+        "Enhanced security response with SSH log parsing and brute-force detection",
+        "Automated CI/CD pipeline deployment on Render with optimized backends"
+      ],
+      githubUrl: "https://github.com/MahmoudEzzat8824/Health_Check",
+      devopsHighlights: ["Monitoring", "Security", "Automation"]
     }
   ];
 
@@ -47,7 +61,7 @@ export function Projects() {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/20">
               <div className="aspect-video overflow-hidden relative">
