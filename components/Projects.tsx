@@ -1,11 +1,22 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { Github, GitBranch, Zap, Cloud } from "lucide-react";
+import { Github, GitBranch, Zap, Cloud, ExternalLink } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
+type Project = {
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  features: string[];
+  githubUrl: string;
+  liveDemoUrl?: string;
+  devopsHighlights: string[];
+};
+
 export function Projects() {
-  const projects = [
+  const projects: Project[] = [
     {
       title: "Task Management Platform",
       description: "Reduced software release time by 80% through the automation of the full-stack deployment workflow using GitHub Actions CI/CD integrated with Docker Hub for container image management. Achieved 100% environment consistency and high availability by orchestrating containerized microservices using Kubernetes on AWS infrastructure. Minimized infrastructure setup time and manual configuration errors by automating the provisioning of AWS cloud resources using Terraform as Infrastructure as Code (IaC). Enhanced system reliability and observability by establishing a comprehensive monitoring stack using Prometheus and Grafana to track infrastructure health and performance metrics.",
@@ -17,7 +28,8 @@ export function Projects() {
         "Automated AWS infrastructure provisioning using Terraform IaC",
         "Comprehensive monitoring with Prometheus and Grafana stack"
       ],
-      githubUrl: "https://github.com/MahmoudEzzat8824/nodejs-fullstack",
+      githubUrl: "https://github.com/MahmoudEzzat8824/Task-Manager",
+      liveDemoUrl: "http://4.225.229.91",
       devopsHighlights: ["CI/CD", "Kubernetes", "Terraform"]
     },
     {
@@ -32,6 +44,7 @@ export function Projects() {
         "Optimized scalability, reliability, and deployment consistency"
       ],
       githubUrl: "https://github.com/MahmoudEzzat8824/ICUReservation-ManagementSystem",
+      liveDemoUrl: "http://13.62.130.34/",
       devopsHighlights: ["Kubernetes", "Terraform", "CI/CD"]
     },
     {
@@ -47,6 +60,20 @@ export function Projects() {
       ],
       githubUrl: "https://github.com/MahmoudEzzat8824/Health_Check",
       devopsHighlights: ["Monitoring", "Security", "Automation"]
+    },
+    {
+      title: "EnvSync Configuration Drift CLI",
+      description: "Engineered a Python CLI utility integrated with GitHub Actions to detect configuration drift across dev, staging, and prod environments. Prevented an estimated 80% of environment-related deployment failures through automated drift checks and strengthened secret handling by comparing Kubernetes Secrets with in-memory SHA256 digests.",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      technologies: ["Python", "GitHub Actions", "Kubernetes", "SHA256", "CLI Automation"],
+      features: [
+        "Automated configuration drift detection across dev, staging, and prod",
+        "Prevented an estimated 80% of environment-related deployment failures",
+        "Secured Kubernetes Secret comparisons using in-memory SHA256 digests",
+        "Eliminated manual drift audits and saved 3+ debugging hours per release cycle"
+      ],
+      githubUrl: "https://github.com/MahmoudEzzat8824/EnvSync",
+      devopsHighlights: ["GitHub Actions", "Security", "Reliability"]
     }
   ];
 
@@ -119,8 +146,16 @@ export function Projects() {
                 </div>
               </CardContent>
               
-              <CardFooter className="pt-6">
-                <Button variant="outline" size="sm" asChild className="w-full">
+              <CardFooter className={`pt-6 ${project.liveDemoUrl ? "flex gap-2" : ""}`}>
+                {project.liveDemoUrl && (
+                  <Button size="sm" asChild className="flex-1">
+                    <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Live Demo
+                    </a>
+                  </Button>
+                )}
+                <Button variant="outline" size="sm" asChild className={project.liveDemoUrl ? "flex-1" : "w-full"}>
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-4 w-4" />
                     View Source Code
