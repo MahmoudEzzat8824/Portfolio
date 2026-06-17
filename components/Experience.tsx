@@ -24,7 +24,7 @@ export function Experience() {
       icon: Users,
       title: "Public Relations Committee Member",
       organization: "MSP (Microsoft Student Partners)",
-      period: "8/2024 - 12/2024",
+      period: "Aug 2025 - Dec 2025",
       description: "Supporting public relations activities including outreach, partnerships, and communication strategies to grow community impact and engagement.",
       responsibilities: [
         "Coordinated with partners and speakers for community events",
@@ -38,7 +38,7 @@ export function Experience() {
       icon: Users,
       title: "Event Planner & Panel Moderator",
       organization: "Tech Heist Event",
-      period: "11/10/2025",
+      period: "October 2025",
       description: "Participated as an event planner and served as a panel moderator, coordinating logistics and facilitating panel discussions with speakers and attendees.",
       responsibilities: [
         "Planned event agenda and coordinated session logistics",

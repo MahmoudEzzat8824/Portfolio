@@ -7,7 +7,7 @@ export function Awards() {
     {
       title: "Best DevOps Project Award",
       organization: "Digital Egypt Pioneers Initiative (DEPI)",
-      date: "2025",
+      date: "Jan 2026",
       description: "Ranked 3rd for technical excellence in architecting ICU Management System. Engineered robust pipelines using Jenkins and GitLab CI to automate microservices deployment. Leveraged Terraform for AWS resource provisioning and orchestrated containers with Kubernetes. Implemented full-stack monitoring and alerting with Prometheus and Grafana.",
       achievement: "3rd Place",
       category: "DevOps Excellence"

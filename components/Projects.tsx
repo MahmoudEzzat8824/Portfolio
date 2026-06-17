@@ -29,7 +29,6 @@ export function Projects() {
         "Comprehensive monitoring with Prometheus and Grafana stack"
       ],
       githubUrl: "https://github.com/MahmoudEzzat8824/Task-Manager",
-      liveDemoUrl: "http://4.225.229.91",
       devopsHighlights: ["CI/CD", "Kubernetes", "Terraform"]
     },
     {

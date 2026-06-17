@@ -73,7 +73,7 @@ export function Education() {
                       </Badge>
                       <div className="flex items-center gap-1 text-sm text-muted-foreground">
                         <Calendar className="h-4 w-4" />
-                        Expected June 2026
+                        June 2026
                       </div>
                     </div>
                   </div>

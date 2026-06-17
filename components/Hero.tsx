@@ -63,7 +63,7 @@ export function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
             <div className="text-center">
               <div className="text-3xl mb-2 text-primary">2026</div>
-              <div className="text-muted-foreground">Expected Graduation</div>
+              <div className="text-muted-foreground">Graduation</div>
             </div>
             <div className="text-center">
               <div className="text-3xl mb-2 text-primary">5+</div>
