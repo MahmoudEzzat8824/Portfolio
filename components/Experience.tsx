@@ -5,6 +5,21 @@ import { Users, Code, Wrench, Calendar } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
+      icon: Users,
+      title: "Project Coordinator",
+      organization: "eyouth",
+      period: "Jun 2026 - Now",
+      location: "Nasr City, Cairo, Egypt",
+      description: "Coordinated multi-channel operations across field and remote teams to ensure timely project execution and maintain strict alignment with baseline delivery frameworks.",
+      responsibilities: [
+        "Optimized multi-location project execution across virtual and on-ground channels to ensure 100% alignment withestablished project frameworks by streamlining coordination with ﬁeld teams and synchronizing weekly tasks.",
+        "Minimized budget variances and deployment risks by developing comprehensive milestone tracking reports andproactive escalation workﬂows to provide actionable operational insights to the Project Manager.",
+        "Facilitated cross-functional collaboration between on-site coordinators, stakeholders, and project managers to streamline deliverables and maintain operational cadence."
+      ],
+      skills: ["Project Coordination", "Cross-Functional Leadership", "Milestone Tracking", "Risk Mitigation", "Operational Workflow", "Reporting & Analytics"],
+      type: "Full-Time"
+    },
+    {
       icon: Wrench,
       title: "DevOps Trainee",
       organization: "Digital Egyptian Pioneers Initiative",
