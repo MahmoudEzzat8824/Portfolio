@@ -8,8 +8,8 @@ export function Experience() {
       icon: Users,
       title: "Project Coordinator",
       organization: "eyouth",
-      period: "Jun 2026 - Now",
-      location: "Nasr City, Cairo, Egypt",
+      period: "June 2026 - Now",
+      location: "Maadi, Cairo, Egypt",
       description: "Coordinated multi-channel operations across field and remote teams to ensure timely project execution and maintain strict alignment with baseline delivery frameworks.",
       responsibilities: [
         "Optimized multi-location project execution across virtual and on-ground channels to ensure 100% alignment withestablished project frameworks by streamlining coordination with ﬁeld teams and synchronizing weekly tasks.",
